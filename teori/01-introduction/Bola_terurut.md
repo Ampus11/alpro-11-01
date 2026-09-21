@@ -10,5 +10,5 @@ Dengan asumsi : Setiap pengambilan hanya boleh satu bola. Diperbolehkan memberi 
 5. lalu ambil lagi bola didalam kotak 
 6. apabila bola angka kecil (1) taro paling depan
 7. ambil lagi bola terakhir yg ada didalam kotak (2)
-8. Seluruh bola telah keluar dari kotak dan tersusun rapi dari nilai terkecil ke terbesar.
+8. Seluruh bola telah keluar dari kotak dan tersusun rapi dari nilai terkecil ke terbesar
 9. Selesai
