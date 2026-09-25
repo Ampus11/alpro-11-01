@@ -1,5 +1,5 @@
 # <h1 align="center">Laporan Praktikum Modul 02 - Variabel, Tipe Data, dan Operasi Bahasa Pemrograman Go</h1>
-<p align="center">[Nama Praktikan] - [109092630002]</p>
+<p align="center">[Rizky Fadlurrahman Ramadhan] - [109092630002]</p>
 
 ## Dasar Teori
 
@@ -12,10 +12,10 @@ Go (atau Golang) adalah bahasa pemrograman open-source yang dikembangkan oleh Go
 Dimana setiap berkas program Go yang dapat dieksekusi harus berada dalam package utama yaitu `package main`. Titik awal eksekusi program selalu berada pada fungsi `func main()`. Untuk menangani masukan dan keluaran standar, Go menyediakan package bawaan `fmt`, seperti fungsi `fmt.Scan` untuk membaca masukan dan `fmt.Println` atau `fmt.Printf` untuk menampilkan keluaran
 
 #### 2. Deklarasi Variabel dan Tipe Data
-Go mendukung deklarasi variabel eksplisit menggunakan kata kunci `var` diikuti dengan tipe data (contoh: `var a int`, `var r float64`, atau `var nama string`), serta deklarasi ringkas menggunakan operator `:=` (contoh: `pi := 3.14`)
+Go juga mendukung deklarasi variabel eksplisit menggunakan kata kunci `var` diikuti dengan tipe data (contoh: `var a int`, `var r float64`, atau `var nama string`), serta deklarasi ringkas menggunakan operator `:=` (contoh: `pi := 3.14`)
 
 #### 3. Operasi Aritmatika dan Karakteristik Pembagian
-Go menyediakan operator aritmatika standar seperti penjumlahan (`+`), pengurangan (`-`), perkalian (`*`), pembagian (`/`), dan sisa hasil bagi atau modulo (`%`).
+Didalam Go menyediakan sebuah operator aritmatika standar seperti penjumlahan (`+`), pengurangan (`-`), perkalian (`*`), pembagian (`/`), dan sisa hasil bagi atau modulo (`%`).
 - **Pembagian Bilangan Bulat (*Integer Division*):** Operasi pembagian antar bilangan bulat (`int / int`) akan menghasilkan bilangan bulat di mana nilai pecahan/sisa baginya dibuang (*truncated*).
 - **Pembagian Bilangan Riil:** Untuk mempertahankan nilai desimal, salah satu atau kedua operan harus berupa bilangan pecahan/riil (seperti `4.0 / 5.0` atau tipe `float64`). Jika ditulis `4 / 5`, compiler Go menganggapnya pembagian bilangan bulat yang bernilai `0`.
 
@@ -46,7 +46,7 @@ func main() {
 }
 ```
 #### Deskripsi
-Program ini membaca masukan berupa nama siswa (string), skor matematika (int), dan skor bahasa Inggris (int). Program kemudian menghitung total kedua nilai dan rata-ratanya dengan pembagian bilangan bulat (total / 2) sehingga sisa hasil bagi dibuang, lalu menampilkan nama, nilai total, dan rata-rata pada baris yang terpisah
+Jadi program ini membaca masukan berupa nama siswa (string), skor matematika (int), dan skor bahasa Inggris (int). Lalu program kemudian menghitung total kedua nilai dan rata-ratanya dengan pembagian bilangan bulat (total / 2) sehingga sisa hasil bagi dibuang, lalu menampilkan nama, nilai total, dan rata-rata pada baris yang terpisah
 
 ### 2. tukar.go
 
@@ -81,7 +81,7 @@ func main() {
 }
 ```
 
-### Deskripsi
+#### Deskripsi
 Program ini menghitung luas bidang lingkaran berdasarkan jari-jari r yang diinputkan pengguna. Mengikuti petunjuk modul, variabel pi dideklarasikan dengan pi := 3.14, serta r dan luas bertipe float64 agar mampu menampung bilangan riil berpresisi desimal
 
 ### 4. suhu.go
@@ -104,12 +104,12 @@ func main() {
 }
 ```
 
-### Deskripsi
+#### Deskripsi
 Program ini mengonversi besaran suhu dari skala derajat Celsius ke skala Reamur, Fahrenheit, dan Kelvin. Perhitungan dilakukan dengan menggunakan konstanta pecahan bilangan riil seperti 4.0 / 5.0 dan 9.0 / 5.0 agar Go memprosesnya sebagai pembagian desimal berpresisi tepat
 
 ## Unguided
 
-### 1. cacahuang.gp
+### 1. cacahuang.go
 
 ```go
 package main
@@ -144,7 +144,7 @@ func main() {
 
 
 #### Deskripsi
-Program kalkulator membaca dua buah bilangan bulat $a$ dan $b$ ($b \neq 0$). Program kemudian menghitung lima operasi aritmatika: penjumlahan, pengurangan, perkalian, pembagian bilangan bulat, dan sisa hasil bagi (modulo). Hasilnya ditampilkan dalam satu baris dengan pemisah spasi
+Jadi dalam program ini, memecah sejumlah nominal uang rupiah menjadi lembaran pecahan sepuluh ribu, lima ribu, dan seribu rupiah dengan prinsip jumlah lembar sesedikit mungkin. Setelah itu, program menerapkan operator pembagian bulat / untuk mendapatkan lembaran dan modulo % untuk menghitung sisa nilai uang yang belum terpecah. Sisa uang di bawah pecahan seribu rupiah secara otomatis terabaikan
 
 ### 2. kalkulator.go
 
@@ -171,7 +171,7 @@ func main() {
 ![Screenshot Output Unguided](unguided/kalkulator/output.png)
 
 #### Deskripsi
-Dalam rogram ini memecah sejumlah nominal uang rupiah menjadi lembaran pecahan sepuluh ribu, lima ribu, dan seribu rupiah dengan prinsip jumlah lembar sesedikit mungkin (greedy approach). Program menerapkan operator pembagian bulat / untuk mendapatkan lembaran dan modulo % untuk menghitung sisa nilai uang yang belum terpecah. Sisa uang di bawah pecahan seribu rupiah secara otomatis terabaikan
+Program kalkulator membaca dua buah bilangan bulat $a$ dan $b$ ($b \neq 0$). Program kemudian menghitung lima operasi aritmatika: penjumlahan, pengurangan, perkalian, pembagian bilangan bulat, dan sisa hasil bagi (modulo). Hasilnya ditampilkan dalam satu baris dengan pemisah spasi
 
 <!-- Duplikasi blok "### [nama_soal]" sesuai jumlah folder soal di dalam unguided -->
 
