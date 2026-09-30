@@ -168,7 +168,7 @@ func main() {
 ```
 
 ##### Output
-![Screenshot Output Unguided](unguided/kalkulator/output.png)
+![Screenshot Output Unguided](<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/5XZdYa653fHS8XnSr2tF1C/GenePilot?embed-host=share" allowfullscreen></iframe>)
 
 #### Deskripsi
 Program kalkulator membaca dua buah bilangan bulat $a$ dan $b$ ($b \neq 0$). Program kemudian menghitung lima operasi aritmatika: penjumlahan, pengurangan, perkalian, pembagian bilangan bulat, dan sisa hasil bagi (modulo). Hasilnya ditampilkan dalam satu baris dengan pemisah spasi
