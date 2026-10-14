@@ -7,7 +7,7 @@
 Perulangan `for` menjalankan perintah yang sama secara berulang tanpa menulis kode berkali-kali, dan merupakan satu-satunya perulangan di Go. Bentuk tiga komponennya adalah `for inisialisasi; kondisi; post statement { ... }`: inisialisasi dijalankan sekali di awal, kondisi dicek sebelum tiap putaran, dan post statement dijalankan setelah tiap putaran
 
 ### B. For Hanya Kondisi dan Perulangan Bersarang
-Karena Go tidak punya `while`, perannya digantikan oleh `for` yang hanya berisi kondisi. `for` juga bisa diletakkan di dalam `for` lain (perulangan bersarang) untuk memproses data yang tiap itemnya punya beberapa nilai
+Karena Go tidak punya yang namanya `while`, perannya digantikan oleh `for` yang hanya berisi kondisi. `for` juga bisa diletakkan di dalam `for` lain (perulangan bersarang) untuk memproses data yang tiap itemnya punya beberapa nilai
 
 ## Guided
 
