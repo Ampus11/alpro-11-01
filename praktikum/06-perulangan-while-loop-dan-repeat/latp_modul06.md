@@ -33,7 +33,7 @@ func main() {
 ![Screenshot Output Unguided](tp/lulus/output.png)
 
 #### Deskripsi
-Program ini membaca nilai ujian terus-menerus dan mencetak lulus kalau nilainya 60 ke atas. Kalau yang dimasukkan -1, program berhenti.
+Program ini membaca nilai ujian terus-menerus dan mencetak lulus kalau nilainya 60 ke atas. Kalau yang dimasukkan -1, program berhenti
 
 ### 2. deret.go
 
@@ -61,7 +61,7 @@ func main() {
 ![Screenshot Output Unguided](tp/deret/output.png)
 
 #### Deskripsi
-Program ini menjumlahkan 1 sampai n. Angka i dimulai dari 1 lalu ditambahkan ke jumlah sampai i lebih besar dari n.
+Program ini menjumlahkan 1 sampai n. Angka i dimulai dari 1 lalu ditambahkan ke jumlah sampai i lebih besar dari n
 
 ### 3. duaterendah.go
 
@@ -104,7 +104,7 @@ func main() {
 ![Screenshot Output Unguided](tp/duaterendah/output.png)
 
 #### Deskripsi
-Program ini mencari dua siswa dengan nilai paling kecil. Setiap kali ada nilai yang lebih kecil, data dua nilai terendah diperbarui, lalu namanya dicetak di akhir.
+Program ini mencari dua siswa dengan nilai paling kecil. Setiap kali ada nilai yang lebih kecil, data dua nilai terendah diperbarui, lalu namanya dicetak di akhir
 
 ### 4. biaya.go
 
@@ -132,7 +132,7 @@ func main() {
 ![Screenshot Output Unguided](tp/biaya/output.png)
 
 #### Deskripsi
-Program ini menghitung biaya kuliah tahun ke-n. Biayanya dikali 1,06 tiap tahun, lalu dicetak dibulatkan dengan `%.0f`.
+Program ini menghitung biaya kuliah tahun ke-n. Biayanya dikali 1,06 tiap tahun, lalu dicetak dibulatkan dengan `%.0f`
 
 ## Kesimpulan
-Di Go tidak ada `while`, jadi perulangannya ditulis pakai `for` yang hanya berisi kondisi. Bentuk ini enak dipakai kalau jumlah putarannya belum pasti, misalnya membaca input sampai -1. Di keempat soal, perulangan ini dipakai untuk membaca nilai, menjumlah deret, mencari dua nilai terendah, dan menghitung kenaikan biaya.
+Di Go tidak ada `while`, jadi perulangannya ditulis pakai `for` yang hanya berisi kondisi. Bentuk ini enak dipakai kalau jumlah putarannya belum pasti, misalnya membaca input sampai -1. Di keempat soal, perulangan ini dipakai untuk membaca nilai, menjumlah deret, mencari dua nilai terendah, dan menghitung kenaikan biaya
