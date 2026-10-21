@@ -4,10 +4,10 @@
 ## Dasar Teori
 
 ### A. Perulangan While di Go
-Di Go tidak ada `while` atau `do-while`. Gantinya, kita pakai `for` yang isinya cuma kondisi, yaitu `for kondisi { ... }`. Isinya diulang terus selama kondisinya masih true, jadi cocok kalau jumlah ulangannya belum diketahui.
+Di Go tidak ada `while` atau `do-while`. Gantinya, kita pakai `for` yang isinya cuma kondisi, yaitu `for kondisi { ... }`. Isinya diulang terus selama kondisinya masih true, jadi cocok kalau jumlah ulangannya belum diketahui
 
 ### B. Kondisi Berhenti dan Penelusuran String
-Perulangan while biasanya dihentikan lewat nilai tertentu, batas percobaan, atau pilihan keluar di menu. Kalau datanya string, tiap karakter bisa dicek pakai indeks `kalimat[i]`, dan panjangnya didapat dari `len(kalimat)`.
+Perulangan while biasanya dihentikan lewat nilai tertentu, batas percobaan, atau pilihan keluar di menu. Kalau datanya string, tiap karakter bisa dicek pakai indeks `kalimat[i]`, dan panjangnya didapat dari `len(kalimat)`
 
 ## Guided
 
@@ -32,7 +32,7 @@ func main() {
 ```
 
 #### Deskripsi
-Program ini mencari n paling kecil yang n pangkat tiganya lebih dari batas. Selama n³ belum melewati batas, n ditambah 1.
+Program ini mencari n paling kecil yang n pangkat tiganya lebih dari batas. Selama n³ belum melewati batas, n ditambah 1
 
 ### 2. terbesar.go
 
@@ -55,7 +55,7 @@ func main() {
 ```
 
 #### Deskripsi
-Program ini mencari n paling besar yang kuadratnya masih di bawah batas. n ditambah 1 sampai n² mencapai batas, lalu yang dicetak n - 1 karena n terakhir sudah melewati batas.
+Program ini mencari n paling besar yang kuadratnya masih di bawah batas. n ditambah 1 sampai n² mencapai batas, lalu yang dicetak n - 1 karena n terakhir sudah melewati batas
 
 ### 3. vokal.go
 
@@ -89,7 +89,7 @@ func main() {
 ```
 
 #### Deskripsi
-Program ini menghitung jumlah huruf vokal dalam kalimat. Kalimat dibaca satu baris, lalu tiap karakternya diubah ke huruf kecil dan dicek apakah a, i, u, e, atau o.
+Program ini menghitung jumlah huruf vokal dalam kalimat. Kalimat dibaca satu baris, lalu tiap karakternya diubah ke huruf kecil dan dicek apakah a, i, u, e, atau o
 
 ## Unguided
 
@@ -160,10 +160,10 @@ func main() {
 ![Screenshot Output Unguided](unguided/atm/output.png)
 
 #### Deskripsi
-Program ini meniru ATM dengan dua perulangan. Yang pertama untuk login dengan password "1234" dan maksimal 3 kali coba, kalau salah semua ATM diblokir. Yang kedua menampilkan menu saldo, tarik uang, dan keluar sampai pilihan 3 dipilih.
+Program ini meniru ATM dengan dua perulangan. Yang pertama untuk login dengan password "1234" dan maksimal 3 kali coba, kalau salah semua ATM diblokir. Yang kedua menampilkan menu saldo, tarik uang, dan keluar sampai pilihan 3 dipilih
 
 ## Kesimpulan
-Di Go, perulangan while dibuat dengan `for` yang hanya berisi kondisi, dan pas dipakai kalau jumlah ulangannya belum pasti. Di praktikum ini dipakai untuk mencari bilangan sesuai syarat, menghitung vokal lewat indeks, dan membuat simulasi ATM yang punya batas percobaan login serta menu yang terus muncul.
+Di Go, perulangan while dibuat dengan `for` yang hanya berisi kondisi, dan pas dipakai kalau jumlah ulangannya belum pasti. Di praktikum ini dipakai untuk mencari bilangan sesuai syarat, menghitung vokal lewat indeks, dan membuat simulasi ATM yang punya batas percobaan login serta menu yang terus muncul
 
 ## Referensi
 1. The Go Authors. (2024). The Go Programming Language Specification. Diakses melalui https://go.dev/ref/spec
